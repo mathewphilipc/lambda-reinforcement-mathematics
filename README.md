@@ -10,4 +10,14 @@ and read up to the line  "To be simple, each reward will be discounted by gamma 
 
 `http://www.columbia.edu/itc/sipa/math/summation.html`
 
-or ask around on the Slack channel. Once you understand what's going on in that equation you should clone this repository, open it up locally, and check out the file `Exercise.py`.
+or ask around on the Slack channel. Once you understand what's going on in that equation you should clone this repository, open it up locally, and check out the file `Exercise.py`. You'll see an empty function called `reward(gamma, R)`.
+
+## Testing your solution
+
+Today is probably your first exposure to pytest, a popular testing framework for Python. To install pytest, run
+
+`sudo pip install -U pytest`
+
+If you run into any problems, consult the official documentation at
+
+`https://docs.pytest.org/en/3.0.6/index.html`
