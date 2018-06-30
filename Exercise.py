@@ -1,8 +1,9 @@
 import numpy as np
 
-def reward(gamma, R):
+def reward(R, gamma):
 	sum = 0.0
-	for i in range(10):
+	for i in range(400):
+#		print(sum)
 		sum += gamma**i
 	return R*sum
 

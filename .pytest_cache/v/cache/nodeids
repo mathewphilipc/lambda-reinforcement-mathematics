@@ -1,0 +1,7 @@
+[
+  "test_sample.py::test_answer", 
+  "test_sample.py::test_exercise_1", 
+  "test_sample.py::test_exercise_2", 
+  "test_sample.py::test_exercise_3", 
+  "test_sample.py::test_exercise_4"
+]
