@@ -9,3 +9,9 @@ Visit the article
 and read up to the line 
 
 `To be simple, each reward will be discounted by gamma to the exponent of the time step.`
+
+Today we'll be implementing the equation immediately above that. For simplicity, we'll assume that R_1, R_2, R_3, ... are all the same value (call it R). At this point, if you're confused by the notation you should consult this helpful tutorial
+
+`http://www.columbia.edu/itc/sipa/math/summation.html`
+
+or ask around on the Slack channel. Once you understand what's going on in that equation you should clone this repository, open it up locally, and check out the file `Exercise.py`.
